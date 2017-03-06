@@ -1,0 +1,231 @@
+form#contact  {
+    margin:0
+}
+form#contact label {
+    display: block;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-right: .75em;
+	font-size: 16px;
+}
+
+
+
+form#contact input[type="text"], form#contact textarea {
+  line-height: 16px;
+  background-color: transparent;
+  border-width: 1px ;
+  border-style: solid;
+  border-color: rgba(220,221,221,1);
+  border-radius:4px;
+  font-size: 14px;
+  padding: 10px;
+  height: auto;
+  width: 400px;
+  color: rgb(65, 72, 77) ;	
+}
+
+form#contact .wrap_label_text{
+  margin-bottom: 1.25em;
+}
+
+form input[type="text"]:focus, form textarea:focus {
+    border-color:#1f487c;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none
+}
+
+form#contact input[type="submit"]{
+    background-color: #1f487c;
+    color: #fff;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+	cursor: pointer;
+
+
+	
+}
+
+form#contact input[type="submit"]:hover{
+	background-color: rgb(57, 108, 180);
+}
+
+form#contact label.error {
+	padding-top:2px;
+	font-size:12px !important;
+    line-height:14px;
+    color:#c0392b
+}
+
+div#success,  div#error {
+    display:none;
+}
+div#success-show , div#error-show  {
+    display:block;
+    top:0;
+    width:100%;
+	font-size: 16px;
+
+}
+div#success-show {
+  color:rgb(145, 177, 40);
+}
+
+div#error-show {
+  color:#c0392b;
+}
+
+/* to be used */
+form input[type="text"][disabled], form textarea[disabled] {
+    background:#fff
+}
+form input[type="text"].error, form textarea.error {
+    background:#e6e6e6;
+    border-color:#c0392b
+}
+fieldset {
+    border:0px;
+    margin:0;
+    padding:0
+}
+.required {
+    color:#e9266d
+}
+
+table.display-contacts{
+	border: 1px solid #ccc;
+	border-spacing: 0px;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	}
+	
+table.display-contacts tr{
+	border: 1px solid #ccc;
+
+}
+
+table.display-contacts th{
+	border: 1px solid #ccc;
+    padding: 7px 20px;
+	
+} 
+
+table.display-contacts td{
+	border: 1px solid #ccc;
+    padding: 7px 20px;
+	
+}
+
+.edit-link:before {
+    content: "\f103"; 
+}
+
+.form-dashicons{ 
+	line-height: 20px;
+    width: 20px;
+    height: 20px;
+	font-size: 25px;
+	
+}
+
+
+form#add_contact label {
+    display: block;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-right: .75em;
+	font-size: 16px;
+}
+
+
+
+form#add_contact input[type="text"], form#custom_field input[type="select"]{
+	    display: block;
+		width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+
+form#add_contact textarea {
+	    display: block;
+		width: 100%;
+	    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+}
+
+form#add_contact .wrap_label_text{
+  margin-bottom: 1.25em;
+}
+
+form input[type="text"]:focus, form textarea:focus {
+ border-color: #759cb3;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(117, 156, 179, 0.6);
+}
+
+form#add_contact input[type="submit"], form#custom_field input[type="button"]{
+    background-color: #1f487c;
+    color: #fff;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+	cursor: pointer;
+
+
+	
+}
+
+form#add_contact input[type="submit"]:hover{
+	background-color: rgb(57, 108, 180);
+}
+
+form#add_contact label.error {
+	padding-top:2px;
+	font-size:12px !important;
+    line-height:14px;
+    color:#c0392b
+	
+}
+
+form#add_contact  {
+    width:100%;
+}
+
+ a {
+	text-decoration: none;
+}
